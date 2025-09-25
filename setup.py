@@ -26,7 +26,7 @@ As stated, this documentation was not created with the help of the official VRCh
 
 First add the package to to your project:
 ```bash
-pip install vrchatapi
+pip install vrchat-api-client
 ```
 
 Below is an example on how to login to the API and fetch your own user information.
@@ -91,7 +91,7 @@ Join the [Discord server](https://discord.gg/Ge2APMhPfD) to get in touch with us
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "vrchatapi"
+NAME = "vrchat-api-client"
 VERSION = "1.20.3"
 # To install the library, run the following
 #
