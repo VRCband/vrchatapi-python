@@ -92,7 +92,7 @@ Join the [Discord server](https://discord.gg/Ge2APMhPfD) to get in touch with us
 from setuptools import setup, find_packages  # noqa: H301
 
 NAME = "vrchat-api-client"
-VERSION = "1.20.3"
+VERSION = "1.20.4"
 # To install the library, run the following
 #
 # python setup.py install
@@ -107,9 +107,9 @@ setup(
     version=VERSION,
     description="VRChat API Library for Python",
     author="Unofficial VRChat API Documentation Project",
-    author_email="vrchatapi.lpv0t@aries.fyi",
-    url="",
-    keywords=["vrchat", "vrchatapi", "vrc"],
+    author_email="webmaster@vrcband.com",
+    url="https://github.com/VRCband/vrchatapi-python",
+    keywords=["vrchat", "vrchat-api-client", "vrc"],
     install_requires=REQUIRES,
     packages=find_packages(exclude=["test", "tests"]),
     include_package_data=True,
